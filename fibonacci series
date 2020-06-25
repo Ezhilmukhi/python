@@ -1,9 +1,9 @@
 n=int(input("enter the no. of terms:"))
 a=0                  #assigning the first term to 0
 b=1                  #assigning the second term to 1  
-s=0                  #setting the variable s to 0 (which gonna temporarily store and print the vlue)
+s=0                  #setting the variable s to 0 (which gonna temporarily store and print the value)
 c=1                  #setting the iterating variable to 1  
-print("Fiboncci series:",end="\n")
+print("Fibonacci series:",end="\n")
 while(c<=n):           #checking whether the no.of.terms is less than c(i.e..1)
     print(s,end="\n")
     c+=1              #incrementing the iterating variable by 1
@@ -15,7 +15,7 @@ while(c<=n):           #checking whether the no.of.terms is less than c(i.e..1)
     
 OUTPUT:
 enter the no. of terms:10
-Fiboncci series:
+Fibonacci series:
 0
 1
 1
