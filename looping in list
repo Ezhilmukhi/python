@@ -1,0 +1,10 @@
+list1=[1,-2,4,-22,77]
+for i in list1:      #iterating through a list
+    if(i>0):         #checking for each value in the list that i>0
+        print(i)     #if it is true it prints the value
+    
+    
+OUTPUT:
+1
+4
+77
