@@ -1,0 +1,29 @@
+n=int(input("enter the no. of terms:"))
+a=0                  #assigning the first term to 0
+b=1                  #assigning the second term to 1  
+s=0                  #setting the variable s to 0 (which gonna temporarily store and print the vlue)
+c=1                  #setting the iterating variable to 1  
+print("Fiboncci series:",end="\n")
+while(c<=n):           #checking whether the no.of.terms is less than c(i.e..1)
+    print(s,end="\n")
+    c+=1              #incrementing the iterating variable by 1
+    a=b               #assigning the value of a to b(i.e....b=0)
+    b=s               #assigning the value of b to s(i.e....s=0)
+    s=a+b             #now s is set equal to the value of a+b(updating values)
+    
+    
+    
+OUTPUT:
+enter the no. of terms:10
+Fiboncci series:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+​
